@@ -23,6 +23,7 @@ namespace ADO
                 selectCommand.CommandType = System.Data.CommandType.Text;
                 selectCommand.CommandText = "Select * from Movies";
 
+                //insert command
                 SqlCommand insertCommand = new SqlCommand();
                 insertCommand.Connection = connection;
                 insertCommand.CommandType = System.Data.CommandType.Text;
